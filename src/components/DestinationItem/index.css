@@ -1,0 +1,41 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.destination {
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+  color: #0f172a;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  width: inherit;
+}
+
+@media all and (min-width: 768px) {
+  .destination {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
